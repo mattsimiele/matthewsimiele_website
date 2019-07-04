@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="author" content="Matthew Simiele">
-<title> Matthew Simiele | Projects</title>
+<title> Matthew Simiele | Junior Design</title>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -30,7 +30,7 @@
                 <h3>Projects</h3>
                 <nav>
                     <ul>
-                        <li><a href="Junior_Design.html">Junior Design Project</a></li>
+                        <li class="current"><a href="Junior_Design.html">Junior Design Project</a></li>
                         <li><a href="Sonar_DFT.html">Passive Sonar with DFT</a></li>
                         <li><a href="Full_AM.html">Full AM Radio</a></li>
                         <li><a href="Mars_Rover.html">IEEE Mars Rover</a></li>
@@ -45,10 +45,11 @@
                 </nav>
                 </div>
             </aside>
-
             <article id="main-col">
-                <h1 class="page-title">Projects</h1>
-                <p>Click on a project inside the box to learn more about it!</p>
+                <h1 class="page-title">Junior Design Project</h1>
+                <p>The goal of our project was to construct a rover that used autonomous navigation to detect the amount of metal mines in a 6x6 foot arena. Our rover used a metal detector that outputted zero volts when not over a piece of metal, and then when hovering over metal would output anywhere between three and four volts. In order to count the amount of metal mines detected we used an Atmega 328 to light up four LEDs once a metal mine was detected. The rover navigated the arena by using sensors to detect any walls or obstacles. Once detecting a boundary in the way the rover would then turn left or right, depending on which sensor the object was blocking. To start the movement of the rover in the arena, we had a push button connected to a transmitter that would send a signal to the receiver that would indicate the start to the pin it was connected to on the papilio board. Once the rover was on, it would then navigate the arena using the search algorithm, that determined the movement of the rover.</p>
+                <p>Read more about it in the PDF Report below!</p>
+                <embed src="Team10_Report.pdf" type="application/pdf" width="100%" height="600px"/>
             </article>
         </div>
     </section>

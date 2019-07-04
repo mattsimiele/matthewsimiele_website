@@ -108,10 +108,39 @@ aside#sidebar b{
     list-style-type: none;
 }
 
+aside#sidebar2{
+    float: left;
+    width: 30%;
+    margin-top: 10px;
+    padding-right: 5%;
+}
+
+aside#sidebar2 b{
+    list-style-type: none;
+}
+
+aside#sidebar2 a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+aside#sidebar2 .current a{
+    color:#0f8200;
+    font-weight: bold;
+}
+
 /* Main-col */
 article#main-col{
     float: left;
     width: 50%;
+}
+
+article#main-col2{
+    float: right;
+    width: 60%;
+    padding-left: 5%;
 }
 
 /* Footer */

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="author" content="Matthew Simiele">
-<title> Matthew Simiele | Projects</title>
+<title> Matthew Simiele | Passive Sonar with DFT</title>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -31,7 +31,7 @@
                 <nav>
                     <ul>
                         <li><a href="Junior_Design.html">Junior Design Project</a></li>
-                        <li><a href="Sonar_DFT.html">Passive Sonar with DFT</a></li>
+                        <li class="current"><a href="Sonar_DFT.html">Passive Sonar with DFT</a></li>
                         <li><a href="Full_AM.html">Full AM Radio</a></li>
                         <li><a href="Mars_Rover.html">IEEE Mars Rover</a></li>
                         <li><a href="Linear_Algebra_Project.html">Dynamic System Project</a></li>
@@ -45,10 +45,17 @@
                 </nav>
                 </div>
             </aside>
-
             <article id="main-col">
-                <h1 class="page-title">Projects</h1>
-                <p>Click on a project inside the box to learn more about it!</p>
+                <h1 class="page-title">Passive Sonar with DFT</h1>
+                <p>The Passive Sonar with DFT project was developed to analyze a sonar system using the Discrete Fourier Transform (DFT) and model the systems functionality using Matlab. Many applications of signal processing involve receiving a signal sinusoidal in nature. However, since components (receivers) and the environment (water in the case of sonar) modify the transmitted signal a significantly reduced signal encapsulated in noise is actually received by the system. The nature of the DFT of a sinusoid allows us to find the signal within the noise.</p>
+                <p>The analysis of a Passive Sonar system was completed using a singular sinusoid combined with a set of random
+                    noise values. The analysis of the system included changing the Signal to Noise Ratio (SNR) and analyzing how
+                    the signal responded. The sound command of MATLAB was used to hear the signal allowing us to distinguish
+                    between signals with different SNR values. Also, while computing and graphing the Fast Fourier Transform
+                    (FFT) different levels of sampling and zero padding were used to help solidify the effect changing these values
+                    have on the visualization of the DFT.</p>
+                <p>Read the Report below for more information!</p>
+                <embed src="Passive_Sonar_with_DFT.pdf" type="application/pdf" width="100%" height="600px"/>
             </article>
         </div>
     </section>
